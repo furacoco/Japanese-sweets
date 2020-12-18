@@ -1,0 +1,136 @@
+﻿@charset "UTF-8";
+
+/* 全体のCSS */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 910px;
+  margin: 0 auto;
+  background: url(img/wrapper_bg.jpg) repeat-y;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+}
+
+a:hover img {
+  visibility: hidden;
+}
+
+/* header */
+
+header {
+  margin-left: 5px;
+}
+
+header nav {
+  height: 70px;
+  background: url(img/navi_bg.jpg) no-repeat;
+}
+
+header li {
+  width: 180px;
+  float: left;
+}
+
+/* aside */
+
+aside {
+  width: 220px;
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+  background: #9f9859;
+}
+
+h2 {
+  font-size: 16px;
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-link {
+  padding: 5px 10px 15px;
+  background: #d6cd78;
+  margin-bottom: 10px;
+}
+
+.menu-link li {
+  line-height: 2;
+}
+
+.side-img01 {
+  margin-bottom: 10px;
+  background: url(img/banner_01_bg.jpg) no-repeat;
+}
+.side-img02 {
+  margin-bottom: 10px;
+  background: url(img/banner_02_bg.jpg) no-repeat;
+}
+
+.menu-link a {
+  color: #3e2018;
+  display: inline;
+}
+
+.menu-link a:hover {
+  text-decoration: none;
+}
+
+/* main */
+
+main {
+  width: 640px;
+  float: right;
+  font-size: 13px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.recommend {
+  width: 205px;
+  float: left;
+}
+
+main h3 {
+  margin-bottom: 15px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article p {
+  padding-left: 20px;
+  line-height: 2.2;
+}
+
+.recommend img {
+  margin-bottom: 10px;
+}
+
+.r-margin {
+  margin: 0 10px;
+}
+
+/* footer */
+
+footer {
+  margin-left: 5px;
+}

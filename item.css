@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/* 全体のCSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 910px;
+  margin: 0 auto;
+  background: url(img/wrapper_bg.jpg) repeat-y;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+}
+
+a:hover img {
+  visibility: hidden;
+}
+
+/* header */
+
+header {
+  margin-left: 5px;
+}
+
+header nav {
+  height: 70px;
+  background: url(img/navi_bg.jpg) no-repeat;
+}
+
+header li {
+  width: 180px;
+  float: left;
+}
+
+/* aside */
+
+aside {
+  width: 220px;
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+  background: #9f9859;
+}
+
+aside h2 {
+  font-size: 16px;
+  background: #ffffff;
+  padding: 10px;
+  margin: 0 15px 10px;
+}
+
+.menu-link {
+  padding: 5px 10px 15px;
+  background: #d6cd78;
+  margin-bottom: 10px;
+}
+
+.menu-link li {
+  line-height: 2;
+}
+
+.side-img01 {
+  margin-bottom: 10px;
+  background: url(img/banner_01_bg.jpg) no-repeat;
+}
+.side-img02 {
+  margin-bottom: 10px;
+  background: url(img/banner_02_bg.jpg) no-repeat;
+}
+
+.menu-link a {
+  color: #3e2018;
+  display: inline;
+}
+
+.menu-link a:hover {
+  text-decoration: none;
+}
+
+/* main */
+
+main {
+  width: 660px;
+  float: right;
+}
+
+main h2 {
+  margin: 10px 0 20px 5px;
+}
+
+main h3 {
+  margin: 0 0 15px 5px;
+}
+
+main h4 {
+  width: 140px;
+  float: left;
+  margin: 10px;
+}
+
+dl {
+  width: 430px;
+  float: left;
+  margin: 10px 0 0 30px;
+}
+
+dt {
+  margin-bottom: 7px;
+}
+
+dd {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.price {
+  background: #efedec;
+}
+
+section {
+  width: 630px;
+  height: 180px;
+  margin: 0 0 20px 3px;
+  padding: 5px;
+  border: solid 1px #9f9859;
+}
+
+.order-link {
+  border: solid 2px #3e2018;
+  padding: 5px 20px;
+  margin-left: 288px;
+  color: #3e2018;
+}
+
+section a:hover {
+  color: #fff;
+  background: #3e2018;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  margin-left: 5px;
+}
